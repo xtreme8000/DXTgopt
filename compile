@@ -1,0 +1,2 @@
+#!/bin/sh
+clang -std=c11 -flto=auto -Ofast -march=native src/*.c -lm -fopenmp -Wall -Wextra -o dxtgopt
